@@ -7,8 +7,16 @@
     font-size: 40px;
 }
 
+#voto .container-card .red{
+    text-align: center;
+}
+
 #voto .container-card .red img{
     max-width: 70%;
+}
+
+#voto .container-card .blue{
+    text-align: center;
 }
 
 #voto .container-card .blue img{
