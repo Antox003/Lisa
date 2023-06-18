@@ -119,4 +119,8 @@ nav img{
 }
 
 
+/*VOTO*/
+#voto .container-card .red img{
+  max-width: 10%;
+}
  

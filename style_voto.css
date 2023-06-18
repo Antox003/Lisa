@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#voto{
+    background: radial-gradient(42.23% 47.88% at 50% 50.04%, #5B064C 0%, #23014A 100%);
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 7.1rem;
+}
+
+#voto .title{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center
+}
+
+#voto .container-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+#voto .container-card .red{
+    transition: ease-in-out 0.3s;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+#voto .container-card .red:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+
+#voto .container-card .blue{
+    transition: ease-in 0.3s;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+#voto .container-card .blue:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+}
+
+#voto h1{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center
+}
