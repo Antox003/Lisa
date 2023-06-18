@@ -1,3 +1,12 @@
+#voto{
+    padding-top: 6rem;
+    padding-bottom: 7.1rem;
+}
+
+#voto .title{
+    font-size: 40px;
+}
+
 #voto .container-card .red img{
     max-width: 70%;
 }
