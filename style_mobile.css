@@ -20,3 +20,7 @@ nav img{
 #presentation .sx img {
   display: none;
 }
+
+.footer p{
+  font-size: 15px;
+}
