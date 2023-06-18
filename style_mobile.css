@@ -1,3 +1,22 @@
+nav img{
+  max-width: 40%;
+}
+
 #presentation{
   height: auto;
+  padding-bottom: 2rem;
+  
+}
+
+#presentation .dx h1{
+  width: 400px;
+  font-size: 30px;
+}
+
+#presentation .dx img{
+ max-width: 70%;
+}
+
+#presentation .sx img {
+  display: none;
 }
