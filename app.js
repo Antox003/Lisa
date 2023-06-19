@@ -22,5 +22,6 @@ function RedChose(){
     var i=0;
     firebase.database().ref("Carte").set({
         i:i+1,
+        rosso: document.getElementById("rosso").value
     })
 }
