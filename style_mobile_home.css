@@ -21,6 +21,10 @@ nav img{
   display: none;
 }
 
+.card:hover{
+  transform: scale(1.0);
+}
+
 .footer p{
   font-size: 15px;
 }
