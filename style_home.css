@@ -4,11 +4,11 @@
 }
 
 #max{
-  background: url('./Img/Home.jpg')center center/cover;
+  background: url('./Img/background_home.png')center center/cover;
 }
 
 nav{
-  background: linear-gradient(180deg, #43044B 49.44%, rgba(67, 4, 75, 0) 100%);
+  background: linear-gradient(180deg, #15113D 49.44%, rgba(21, 17, 61, 0) 100%);
   height: 130px;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@ nav img{
 }
 
 #presentation{
-  height: 45vh;
+  height: 50vh;
 }
 
 #presentation .container{
@@ -50,7 +50,7 @@ nav img{
 }
 
 #functions{
-  background: radial-gradient(48.06% 91.73% at 50% 67.97%, #23014A 0%, #5B064C 100%);  justify-content: center;
+  background: radial-gradient(48.06% 91.73% at 50% 67.97%, #5B064C 0%, #23014A 100%);
   align-items: center;
   height: auto;
 }
