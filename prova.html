@@ -44,12 +44,11 @@
 					id="email" placeholder="name@example.com">
 				</div>
 			</div>
-			<button class="btn btn-primary"
+			<button type="submit" class="btn btn-primary"
 				style="margin-left: 15px; margin-top: 10px">
 				Submit
 			</button> -->
             <button type="submit">Rosso
-                <a href="index.html"></a>
             </button>
             <button>Blu</button>
 		</div>
@@ -89,7 +88,7 @@
             var blu;
 
 			saveMessage(Rosso);
-			//document.getElementById('contactForm').reset();
+			document.getElementById('contactForm').reset();
 		}
 
 		// Function to get form values
@@ -98,13 +97,13 @@
 		//}
 
 		// Save message to firebase
-		//function saveMessage(name, email) {
-			//var newMessageRef = messagesRef.push();
-			//newMessageRef.set({
-			//	name: name,
-			//	email: email,
-			//});
-		//}
+		function saveMessage(rosso, blu) {
+			var newMessageRef = messagesRef.push();
+			newMessageRef.set({
+				Rosso: 1,
+				blu: 1,
+			});
+		}
 	</script>
 </body>
 
