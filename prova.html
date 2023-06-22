@@ -26,12 +26,12 @@
 	<form class="container" id="contactForm">
 		<div class="card">
 			<div class="card-body">
-				<!--<div class="form-group">
+				<div class="form-group">
 					<label for="exampleFormControlInput1">
 						Enter Your Name
 					</label>
 					
-                --><input type="text" class="form-control"
+                <input type="text" class="form-control"
 					id="name" placeholder="Enter your name">
 				</div>
 <!--
@@ -82,9 +82,9 @@
 			var name = getInputVal('name');
 			//var email = getInputVal('email');
             var rosso;
-            var blu;
+    
 
-			saveMessage(Rosso);
+			saveMessage(rosso, name);
 			document.getElementById('contactForm').reset();
 		}
 
