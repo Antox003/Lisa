@@ -79,7 +79,7 @@
 			e.preventDefault();
 
 			// Get values
-			//var name = getInputVal('name');
+			var name = getInputVal('name');
 			//var email = getInputVal('email');
             var rosso;
             var blu;
@@ -94,11 +94,11 @@
 		//}
 
 		// Save message to firebase
-		function saveMessage(rosso, blu) {
+		function saveMessage(rosso, name) {
 			var newMessageRef = messagesRef.push();
 			newMessageRef.set({
-				Rosso: 1,
-				blu: 1,
+				rosso: 1,
+				name: name,
 			});
 		}
 	</script>
