@@ -46,15 +46,16 @@
  
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
     <script>
-        const firebaseConfig = {
-    apiKey: "AIzaSyDeXDTZ8SPqNM02abgA8NxXnSsvklTe9ak",
-    authDomain: "lisa-ea13d.firebaseapp.com",
-    projectId: "lisa-ea13d",
-    storageBucket: "lisa-ea13d.appspot.com",
-    messagingSenderId: "35739587731",
-    appId: "1:35739587731:web:ed381b55ea272f97c3a966",
-    measurementId: "G-DHPP5M71FL"
-  };
+  const firebaseConfig = {
+  apiKey: "AIzaSyDeXDTZ8SPqNM02abgA8NxXnSsvklTe9ak",
+  authDomain: "lisa-ea13d.firebaseapp.com",
+  databaseURL: "https://lisa-ea13d-default-rtdb.firebaseio.com",
+  projectId: "lisa-ea13d",
+  storageBucket: "lisa-ea13d.appspot.com",
+  messagingSenderId: "35739587731",
+  appId: "1:35739587731:web:ed381b55ea272f97c3a966",
+  measurementId: "G-DHPP5M71FL"
+};
         firebase.initializeApp(firebaseConfig);
  
         var messagesRef = firebase.database()
