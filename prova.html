@@ -26,7 +26,7 @@
 	<form class="container" id="contactForm">
 		<div class="card">
 			<div class="card-body">
-				<div class="form-group">
+				<!--<div class="form-group">
 					<label for="exampleFormControlInput1">
 						Enter Your Name
 					</label>
@@ -44,10 +44,12 @@
 					id="email" placeholder="name@example.com">
 				</div>
 			</div>
-			<button type="submit" class="btn btn-primary"
+			<button class="btn btn-primary"
 				style="margin-left: 15px; margin-top: 10px">
 				Submit
-			</button>
+			</button> -->
+            <button type="submit">Rosso</button>
+            <button>Blu</button>
 		</div>
 	</form>
 
@@ -70,7 +72,7 @@
 		firebase.initializeApp(firebaseConfig);
 
 		var messagesRef = firebase.database()
-			.ref('Collected Data');
+			.ref('Scelta');
 		
 		document.getElementById('contactForm')
 			.addEventListener('submit', submitForm);
@@ -79,26 +81,28 @@
 			e.preventDefault();
 
 			// Get values
-			var name = getInputVal('name');
-			var email = getInputVal('email');
+			//var name = getInputVal('name');
+			//var email = getInputVal('email');
+            var rosso;
+            var blu;
 
-			saveMessage(name, email);
-			document.getElementById('contactForm').reset();
+			saveMessage(Rosso);
+			//document.getElementById('contactForm').reset();
 		}
 
 		// Function to get form values
-		function getInputVal(id) {
-			return document.getElementById(id).value;
-		}
+		//function getInputVal(id) {
+		//	return document.getElementById(id).value;
+		//}
 
 		// Save message to firebase
-		function saveMessage(name, email) {
-			var newMessageRef = messagesRef.push();
-			newMessageRef.set({
-				name: name,
-				email: email,
-			});
-		}
+		//function saveMessage(name, email) {
+			//var newMessageRef = messagesRef.push();
+			//newMessageRef.set({
+			//	name: name,
+			//	email: email,
+			//});
+		//}
 	</script>
 </body>
 
