@@ -45,7 +45,6 @@
     </form>
  
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js"></script>
     <script>
         const firebaseConfig = {
     apiKey: "AIzaSyDeXDTZ8SPqNM02abgA8NxXnSsvklTe9ak",
@@ -56,9 +55,7 @@
     appId: "1:35739587731:web:ed381b55ea272f97c3a966",
     measurementId: "G-DHPP5M71FL"
   };
-        
-        const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+        firebase.initializeApp(firebaseConfig);
  
         var messagesRef = firebase.database()
             .ref('Collected Data');
