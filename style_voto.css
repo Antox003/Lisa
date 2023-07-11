@@ -3,6 +3,25 @@
     margin:0;
 }
 
+/*CHECK*/
+#check{
+    background: radial-gradient(42.23% 47.88% at 50% 50.04%, #5B064C 0%, #23014A 100%);
+    height: 100vh;
+    padding-top: 15rem;
+}
+
+#check .container{
+  text-align: center;
+}
+
+#check .title{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*ROSSO E BLU*/
 #voto{
     background: radial-gradient(42.23% 47.88% at 50% 50.04%, #5B064C 0%, #23014A 100%);
     height: auto;
@@ -51,4 +70,59 @@
     color: white;
     font-size: 30px;
     text-align: center
+}
+
+/*CHOOSE 1*/
+
+#Choose-1{
+    background: radial-gradient(42.23% 47.88% at 50% 50.04%, #5B064C 0%, #23014A 100%);
+    height: 100vh;
+    padding-top: 8rem;
+    padding-bottom: 7.1rem;
+}
+
+#Choose-1 .title{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Choose-1 .container-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+#Choose-1 .container-card .primo{
+    transition: ease-in-out 0.3s;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+#Choose-1 .container-card .primo:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+
+#Choose-1 .container-card .secondo{
+    transition: ease-in 0.3s;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+#Choose-1 .container-card .secondo:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+}
+
+#Choose-1 h1{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+    
 }
