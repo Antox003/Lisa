@@ -8,59 +8,33 @@
     font-size: 40px;
 }
 
-/*ROSSO E BLU*/
-#voto{
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-}
-
-#voto .title{
-    font-size: 40px;
-}
-
-#voto .container-card .red{
-    text-align: center;
-}
-
-#voto .container-card .red img{
-    max-width: 70%;
-}
-
-#voto .container-card .blue{
-    text-align: center;
-}
-
-#voto .container-card .blue img{
-    max-width: 70%;
-}
-
 /*CHOOSE 1*/
-#Choose-1{
+#choose{
     padding-top: 2rem;
     padding-bottom: 3rem;
     height: auto;
 }
 
-#Choose-1 .title{
+#choose .title{
     font-size: 60px;
 }
 
-#Choose-1 .container-card .primo{
+#choose .container-card .primo{
     text-align: center;
 }
 
-#Choose-1 .container-card .primo img{
+#choose .container-card .primo img{
     max-width: 50%;
 }
 
-#Choose-1 .container-card .secondo{
+#choose .container-card .secondo{
     text-align: center;
 }
 
-#Choose-1 .container-card .secondo img{
+#choose .container-card .secondo img{
     max-width: 50%;
 }
 
-#Choose-1 h1{
+#choose h1{
     font-size: 20px; 
 }
