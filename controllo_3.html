@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_control.css">
+    <link rel="stylesheet" href="style_mobile_voto.css" media="screen and (max-width: 1000px)">
+    <link rel="shortcut icon" href="./img/logo.png">
+    <title>CONTROLLO 3</title>
+
+</head>
+<body>
+    <section id="choose">
+        <div class="container-card">
+            <div class="primo">
+                <a href="" class="none"><img src="./Img/voti/3/bob_sinclar.png" alt=""></a>
+                <h1>Adore - Bob Sinclar</h1>
+                <h1 id="titolo">0</h1>
+            </div>
+            <div class="secondo" >
+                <a href="" class="none"><img src="./Img/voti/3/paola_chiara.png" alt=""></a>
+                <h1>Furore - Paola & Chiara</h1>
+                <h1 id="prova">0</h1>
+            </div>
+        </div>
+        <div class="button">
+            <button id="remove" onclick="test()">Mostra risultati</button>
+        </div>
+    </section>
+    
+    <script>
+    function test(){
+        var counter = 0;
+        var i = setInterval(function(test){
+            titolo.innerHTML = counter++;
+            if(counter === 214) {
+                clearInterval(i);
+            }
+        }, 350);
+
+        var point = 0;
+        var j = setInterval(function(test){
+            prova.innerHTML = point++;
+            if(point === 584) {
+                clearInterval(j);
+            }
+        }, 250);
+
+        var par = document.getElementById('remove');
+        par.parentNode.removeChild(par);
+}
+    </script>
+     
+</body>
+</html>
