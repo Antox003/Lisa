@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_control.css">
+    <link rel="stylesheet" href="style_mobile_voto.css" media="screen and (max-width: 1000px)">
+    <link rel="shortcut icon" href="./img/logo.png">
+    <title>CONTROLLO 1</title>
+
+</head>
+<body>
+    <section id="choose">
+        <div class="container-card">
+            <div class="primo">
+                <a href="" class="none"><img src="./Img/voti/1/the_weeknd.png" alt=""></a>
+                <h1>Moth To A Flame - The Weeknd</h1>
+                <h1 id="titolo">0</h1>
+            </div>
+            <div class="secondo" >
+                <a href="" class="none"><img src="./Img/voti/1/michael_gray.png" alt=""></a>
+                <h1>The Weekend -  Michael Grey</h1>
+                <h1 id="prova">0</h1>
+            </div>
+        </div>
+        <div class="button">
+            <button id="remove" onclick="test()">Mostra risultati</button>
+        </div>
+    </section>
+    
+    <script>
+    function test(){
+        var counter = 0;
+        var i = setInterval(function(test){
+            titolo.innerHTML = counter++;
+            if(counter === 506) {
+                clearInterval(i);
+            }
+        }, 200);
+
+        var point = 0;
+        var j = setInterval(function(test){
+            prova.innerHTML = point++;
+            if(point === 327) {
+                clearInterval(j);
+            }
+        }, 400);
+
+        var par = document.getElementById('remove');
+        par.parentNode.removeChild(par);
+}
+    </script>
+     
+</body>
+</html>

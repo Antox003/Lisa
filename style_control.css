@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#choose{
+    background: radial-gradient(42.23% 47.88% at 50% 50.04%, #5B064C 0%, #23014A 100%);
+    height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+#choose .title{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#choose .container-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+#choose .container-card .primo{
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+#choose .container-card .primo a{
+   display: flex;
+   justify-content: center;
+}
+
+#choose .container-card .primo .none{
+    cursor: default;
+}
+
+#choose .container-card .secondo{
+    transition: ease-in 0.3s;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+#choose .container-card .secondo a{
+    display: flex;
+    justify-content: center;
+}
+
+#choose .container-card .secondo .none{
+    cursor: default;
+}
+
+
+#choose h1{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;   
+}
+
+#choose #titolo{
+    font-family: 'Russo One', sans-serif;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;   
+}
+
+#choose #prova{
+    font-family: 'Russo One', sans-serif;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1rem;   
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.button button{
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    color: white;
+    transition: ease-in 0.3s;
+    background: #3b027c;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    border: 1mm ridge rgb(255, 255, 255);
+}
+
+.button button:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
